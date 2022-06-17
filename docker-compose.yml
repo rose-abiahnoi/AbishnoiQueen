@@ -1,9 +1,9 @@
-version: "3.9"
+version: "3.7"
 services:
   worker:
     build: .
     environment:
-      STRING_SESSION: $STRING_SESSION
+      STRING_SESSION1: $STRING_SESSION1
       API_ID: $API_ID
       API_HASH: $API_HASH
       MONGO_DB_URI: $MONGO_DB_URI
